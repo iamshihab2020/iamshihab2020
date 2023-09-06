@@ -3,14 +3,20 @@
   <img height="150" src="https://camo.githubusercontent.com/62da68eb62b1e5f175f7d1f0191dd89a653d7908feb22d37d4a0ab07365d6791/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4d3967624264396e6244724f5475314d71782f67697068792e676966"  />
 </div>
 <br>
-Hi there 👋, my name is Shihab
+<p align=justify> Hi there 👋, my name is Shihab
 I am a professional Frontend Web Developer
+
 Hello and welcome to my portfolio! My name is Sheikh Shihab Hossain and I am a frontend web developer with a passion for creating engaging and user-friendly websites.
+
 I have a strong foundation in HTML, CSS, and JavaScript, and I am always eager to learn and apply new technologies and frameworks to my projects. Whether it's building a responsive layout, crafting a visually appealing design, or implementing dynamic functionality, I strive to create web experiences that delight and engage users.
+
 Aside from my technical skills, I am a creative problem solver with excellent attention to detail. I enjoy working collaboratively with other developers, designers, and stakeholders to bring ideas to life and ensure the final product meets the needs and expectations of its audience.
+
 When I'm not coding, you can find me exploring the great outdoors, playing video games, or reading a good book. I am always looking for new challenges and opportunities to grow as a developer, so feel free to reach out and connect!
+
 I believe that,
-"Code is poetry, and the programmer is the poet who gives life to its art."
+
+"Code is poetry, and the programmer is the poet who gives life to its art." </p>
 
 
 
