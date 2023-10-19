@@ -24,7 +24,3 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=iamshihab2020&icon=5&color=2)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shihabonthecode&show_icons=true&locale=en" alt="shihabonthecode" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shihabonthecode&" alt="shihabonthecode" /></p>
