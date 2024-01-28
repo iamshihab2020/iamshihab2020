@@ -1,7 +1,8 @@
-<a href="https://ibb.co/Yj2ZVzt"><img src="https://i.ibb.co/DK4pjx7/Design-3.png" alt="Design-3" border="0" height="100%" width="100%"></a>
+![Design 7](https://github.com/iamshihab2020/iamshihab2020/assets/68939980/97f83ee0-51cd-4f86-a11a-a4079a857e15)
 
-# 💫 About Me:
-<p>  Hi there, I'm <b>Sheikh Shihab Hossain</b> 👋<br><br>I'm a passionate Frontend Web Developer with a Computer Science and Engineering background. I have a deep love for crafting beautiful and interactive web experiences that not only look great but also function flawlessly. My journey in the world of web development started during my college days, and I've been captivated by it ever since.<br><br>🚀 Here's a bit about me:<br>
+
+💫 About Me:
+<h1>Hi, I'm <b> Sheikh Shihab Hossain</b></h1>  👋<br><br> <p>  I'm a passionate Frontend Web Developer with a Computer Science and Engineering background. I have a deep love for crafting beautiful and interactive web experiences that not only look great but also function flawlessly. My journey in the world of web development started during my college days, and I've been captivated by it ever since.<br><br>🚀 Here's a bit about me:<br>
   <ul>
     <li>🌐 I specialize in modern frontend technologies, including HTML5, CSS3, JavaScript, and popular libraries/frameworks like React and Vue.js.</li>
     <li>💼 I've had the privilege to work on a variety of web projects, from personal websites to complex web applications, where I've honed my skills in creating responsive and user-friendly interfaces.</li>
