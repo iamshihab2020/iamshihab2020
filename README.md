@@ -1,7 +1,7 @@
 ![Design 7](https://github.com/iamshihab2020/iamshihab2020/assets/68939980/97f83ee0-51cd-4f86-a11a-a4079a857e15)
 
 
-💫 About Me:
+# 💫 About Me:
 <h1>Hi, I'm <b> Sheikh Shihab Hossain</b></h1>  <br> <p>  I'm a passionate Frontend Web Developer with a Computer Science and Engineering background. I have a deep love for crafting beautiful and interactive web experiences that not only look great but also function flawlessly. My journey in the world of web development started during my college days, and I've been captivated by it ever since.<br><br>🚀 Here's a bit about me:<br>
   <ul>
     <li>🌐 I specialize in modern frontend technologies, including HTML5, CSS3, JavaScript, and popular libraries/frameworks like React JS and Next JS</li>
@@ -23,10 +23,10 @@ When I'm not coding, you can find me exploring new technologies, reading tech bl
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=iamshihab2020&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 
-### 🔝 Top Contributed Repo
+# 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=iamshihab2020&limit=5&theme=onedark&combine_all_yearly_contributions=true)
 
-### 😂 Random Dev Meme
+# 😂 Random Dev Meme
 <img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
 
 ---
