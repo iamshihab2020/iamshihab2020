@@ -73,10 +73,6 @@ When I'm not coding, you can find me exploring new technologies, reading tech bl
 # 😂 Random Dev Meme
 <img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
 
----
-
-
-<img src="https://raw.githubusercontent.com/iamshihab2020/iamshihab2020/output/snake.svg" alt="Snake animation" />
 
 [![](https://visitcount.itsvg.in/api?id=iamshihab2020&icon=5&color=2)](https://visitcount.itsvg.in)
 
