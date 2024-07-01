@@ -1,13 +1,16 @@
 ![Design 7](https://github.com/iamshihab2020/iamshihab2020/assets/68939980/97f83ee0-51cd-4f86-a11a-a4079a857e15)
 
+<br/>
+
 # 📊 GitHub Stats:
 ![](https://github-readme-streak-stats.herokuapp.com/?user=iamshihab2020&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=iamshihab2020&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-##
+<br/>
 
 <a href="https://gitroll.io/profile/utRX49Aq4JUcZF7ZE9TTjsp95f0S2" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/utRX49Aq4JUcZF7ZE9TTjsp95f0S2" alt="GitRoll Profile Badge"/></a>
 
+<br/>
 
 # 💻 Tech Stack:
 <div align="left">
@@ -50,17 +53,12 @@
   <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" height="40" alt="vscode logo"  />
 </div>
 
-###
-
-###
-
+<br/>
 
 # 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=iamshihab2020&limit=5&theme=onedark&combine_all_yearly_contributions=true)
 
-# 😂 Random Dev Meme
-<img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
-
+<br/>
 
 [![](https://visitcount.itsvg.in/api?id=iamshihab2020&icon=5&color=2)](https://visitcount.itsvg.in)
 
