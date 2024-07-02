@@ -2,6 +2,19 @@
 
 <br/>
 
+
+# 💫 About Me:
+<h1>Hi, I'm <b> Sheikh Shihab Hossain</b></h1>  <br> <p>  I'm a passionate Frontend Web Developer with a Computer Science and Engineering background. I have a deep love for crafting beautiful and interactive web experiences that not only look great but also function flawlessly. My journey in the world of web development started during my college days, and I've been captivated by it ever since.<br><br>🚀 Here's a bit about me:<br>
+  <ul>
+    <li>🌐 I specialize in modern frontend technologies, including HTML5, CSS3, JavaScript, and popular libraries/frameworks like React JS and Next JS</li>
+    <li>💼 I've had the privilege to work on a variety of web projects, from personal websites to complex web applications, where I've honed my skills in creating responsive and user-friendly interfaces.</li>
+    <li>🎨 I believe that design plays a crucial role in web development, and I'm enthusiastic about creating visually appealing and intuitive designs that enhance the user experience.</li>
+    <li>🌱 I'm always eager to learn and stay up-to-date with the latest trends and best practices in web development.</li>
+  </ul>
+  <br>
+When I'm not coding, you can find me exploring new technologies, reading tech blogs, or enjoying a good cup of coffee. I also love to collaborate with like-minded individuals and contribute to open-source projects.<br><br>Feel free to connect with me on LinkedIn, Discord, or Twitter and let's chat about all things web development!<br><be> Let's build the web of tomorrow, one line of code at a time!🌐✨<br> </p>
+
+
 # 📊 GitHub Stats:
 ![](https://github-readme-streak-stats.herokuapp.com/?user=iamshihab2020&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=iamshihab2020&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
