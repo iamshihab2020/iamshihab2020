@@ -18,9 +18,8 @@ When I'm not coding, you can find me exploring new technologies, reading tech bl
 # 📊 GitHub Stats:
 ![](https://github-readme-streak-stats.herokuapp.com/?user=iamshihab2020&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=iamshihab2020&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-    <!-- Github Contribution 3D Profile -->
-    <img src="./profile-3d-contrib/profile-night-view.svg#gh-dark-mode-only" width="700" alt="3D Contribution Profile">
-    <img src="./profile-3d-contrib/profile-green-animate.svg#gh-light-mode-only" width="700" alt="3D Contribution Profile">
+
+
 <br/>
 
 <a href="https://gitroll.io/profile/utRX49Aq4JUcZF7ZE9TTjsp95f0S2" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/utRX49Aq4JUcZF7ZE9TTjsp95f0S2" alt="GitRoll Profile Badge"/></a>
@@ -77,3 +76,7 @@ When I'm not coding, you can find me exploring new technologies, reading tech bl
 
 [![](https://visitcount.itsvg.in/api?id=iamshihab2020&icon=5&color=2)](https://visitcount.itsvg.in)
 
+
+
+
+<img alt="wave animation" src="images/wave_animation_dark.svg#gh-dark-mode-only">
