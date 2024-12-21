@@ -11,8 +11,8 @@
 
 🚀 **Here's a snapshot of what I do:**
 <ul>
-  <li>🌐 **Frontend Specialist:** I specialize in modern web technologies like React.js, Next.js, and Tailwind CSS, crafting responsive and dynamic UIs that provide seamless user experiences.</li>
-  <li>🔒 **Backend Enthusiast:** I integrate robust APIs and handle backend workflows to ensure applications perform smoothly and securely.</li>
+  <li>🌐 **Frontend Specialist**: I specialize in modern web technologies like React.js, Next.js, and Tailwind CSS, crafting responsive and dynamic UIs that provide seamless user experiences.</li>
+  <li>🔒 **Backend Enthusiast:** On the backend, I work with Django and Node.js with Express, enabling me to build robust, scalable, and efficient web applications.</li>
   <li>💼 **Real-World Impact:** My work spans across POS systems, ticketing solutions, and user management dashboards, where I've implemented features like Role-Based Access Control (RBAC) and advanced data visualization tools.</li>
   <li>🌟 **Attention to Detail:** From perfecting hover effects to managing complex API integrations, I thrive on delivering projects that are polished and purpose-driven.</li>
 </ul>
