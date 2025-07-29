@@ -39,7 +39,7 @@ I enjoy exploring history and storytelling, blending creativity with tech for en
 ---
 
 💬 **Let’s connect:**  
-Find me on [LinkedIn](https://linkedin.com/in/your-linkedin) | [Discord](https://discordapp.com/users/your-discord-id) | [Twitter](https://twitter.com/your-twitter)  
+Find me on [LinkedIn]([https://linkedin.com/in/your-linkedin](https://www.linkedin.com/in/sheikh-shihab-hossain/) 
 
 Whether to talk web development, software engineering, or even ancient history. Let’s build something great together!
 
