@@ -4,7 +4,7 @@
 
 # 👋 Hi, I’m Sheikh Shihab Hossain  
 
-**Software Engineer @ Ternary Solutions Inc., USA**  
+**Formar Software Engineer @ Ternary Solutions Inc., USA**  
 🚀 Passionate about building scalable, user-centric, and high-performance web applications  
 
 ---
