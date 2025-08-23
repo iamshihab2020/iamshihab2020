@@ -1,4 +1,5 @@
-![Banner](<img width="1584" height="396" alt="shihab-cover" src="https://i.ibb.co.com/8D6xfjXn/shihab-cover.png" />)
+![Banner](https://i.ibb.co.com/8D6xfjXn/shihab-cover.png)
+
 
 <br/>
 
