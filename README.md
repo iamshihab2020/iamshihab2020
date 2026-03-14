@@ -1,124 +1,197 @@
-![Banner](https://i.ibb.co.com/8D6xfjXn/shihab-cover.png)
+<div align="center">
 
+<img src="https://i.ibb.co.com/8D6xfjXn/shihab-cover.png" alt="Banner" width="100%" style="border-radius:12px"/>
+
+<br/>
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════╗
+║          SHEIKH SHIHAB HOSSAIN  ·  @iamshihab2020        ║
+║       SaaS Engineer  ·  Automation Architect             ║
+║       Building systems that scale — from drag-and-drop   ║
+║       workflow engines to full-stack CRM platforms.      ║
+╚══════════════════════════════════════════════════════════╝
+```
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sheikh-shihab-hossain/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](#)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:iamshihab2020@gmail.com)
+
+</div>
+
+---
+
+## `> whoami`
+
+Software Engineer at **Sharetasking Inc.** — I build complex SaaS products end-to-end. My current flagship project is **SiloCRM**, a full CRM platform with a visual workflow automation engine I designed from scratch: 33 triggers, 23+ actions, IF/ELSE branching, and a drag-and-drop node canvas comparable to n8n.
+
+I specialize in the hard parts — **automation systems, multi-tenant architecture, performance optimization, and shipping real products** that users rely on daily.
+
+> *"Make it work. Make it right. Make it fast."*
+
+---
+
+## `> current_project --focus`
+
+<div align="center">
+
+### 🧩 SiloCRM — Visual Workflow Automation Engine
+*The most complex thing I've built. A drag-and-drop automation engine inside a full CRM.*
+
+</div>
+
+| Component | Details |
+|---|---|
+| **Trigger System** | 33 configurable triggers (webhooks, CRM events, time-based, form submissions) |
+| **Action Engine** | 23+ actions — send email, update records, call APIs, assign tasks, and more |
+| **Logic Branching** | IF/ELSE conditional nodes with nested evaluation |
+| **Canvas** | Infinite drag-and-drop node editor with real-time state management |
+| **Platform** | Multi-tenant CRM — [silocrm.com](https://silocrm.com) |
+| **Stack** | Next.js · Node.js · PostgreSQL · TypeScript |
+
+---
+
+## `> ls projects/`
+
+<details>
+<summary><strong>📦 Omnicore — Multi-Tenant Restaurant SaaS</strong></summary>
 
 <br/>
 
-# 👋 Hi, I’m Sheikh Shihab Hossain  
+Restaurant management platform with full multi-tenancy — item/category management, waiter management, and a built-in POS system.
 
-**Full-Stack Developer Sharetasking Inc., USA**  
-🚀 Passionate about building scalable, user-centric, and high-performance web applications  
+**Stack:** `Next.js` `Django` `PostgreSQL`
 
----
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/iamshihab2020/omnicore)
 
-## 💫 About Me  
-With a strong background in Computer Science and Engineering, I specialize in designing seamless, interactive, and modern web experiences. My expertise spans both **frontend** and **backend** technologies, and I thrive on solving real-world problems with clean, maintainable code.  
+</details>
 
----
+<details>
+<summary><strong>🛒 Hossain Pharmaceuticals — Multi-Vendor E-Commerce</strong></summary>
 
-## 🚀 What I Do  
+<br/>
 
-- **Frontend Development** → React.js, Next.js, Tailwind CSS, Material Tailwind for dynamic, responsive, and accessible UIs.  
-- **Backend Development** → Node.js (Express), Django, RESTful APIs, MongoDB, PostgreSQL for robust and scalable systems.  
-- **Full-Stack Solutions** → Built multi-vendor e-commerce platforms, SaaS dashboards, POS systems, and real-time RBAC applications.  
-- **Performance Optimization** → Efficient data fetching (TanStack Query), API integrations, and smooth user interactions.  
-- **UI/UX & Animations** → Intuitive designs and engaging interactions using Animate.css, Framer Motion, and Lottie.  
+A full multi-vendor platform with separate user dashboard, seller portal, and admin control panel — complete authentication, order management, and role-based access control.
 
----
+**Stack:** `React.js` `Node.js` `Express` `MongoDB` `JWT`
 
-## 🌱 My Philosophy  
-Technology should simplify life.  
-I focus on building apps that are **intuitive, polished, and impactful** — keeping up with the latest tools, best practices, and continuous learning.  
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/iamshihab2020/hossain-pharmaceuticals)
 
----
+</details>
 
-## 🎨 Beyond Coding  
-Outside of code, I enjoy exploring **history and storytelling**, blending creativity with technology.  
-I also create engaging content on **YouTube**, sharing knowledge and ideas with the dev community.  
+<details>
+<summary><strong>✈️ Tour Goo — Tourism Management System</strong></summary>
 
-☕ Always open to collaboration, brainstorming, and exchanging ideas to create meaningful digital experiences.  
+<br/>
 
----
+Tourism management app with authentication, spot discovery, add/update flows, and smooth UI animations.
 
-## 💬 Let’s Connect  
-🔗 [LinkedIn](https://www.linkedin.com/in/sheikh-shihab-hossain/)  
-Whether it’s web development, software engineering, or even ancient history — let’s build something great together!  
+**Stack:** `React` `TailwindCSS` `Express` `MongoDB`
 
----
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/iamshihab2020/tour-goo)
 
-## 🌟 Featured Projects  
+</details>
 
-### 🔹 [Omnicore](https://github.com/iamshihab2020/omnicore)  
-Multi-tenant SaaS for restaurant management with item, category, waiter management, and POS system.  
-**Stack:** Next.js, Django, PostgreSQL  
+<details>
+<summary><strong>💬 Boycott Forum — Community Discussion Platform</strong></summary>
 
----
+<br/>
 
-### 🔹 [Hossain Pharmaceuticals](https://github.com/iamshihab2020/hossain-pharmaceuticals)  
-Multi-vendor e-commerce platform with **user dashboard, seller portal, and admin control panel**.  
-**Stack:** React.js, Node.js, Express, MongoDB, JWT  
+Alternative product information forum — users submit queries, recommend products, and manage threaded discussions.
 
----
+**Stack:** `React` `Material Tailwind` `Node.js` `Express` `MongoDB`
 
-### 🔹 [Tour Goo](https://github.com/iamshihab2020/tour-goo)  
-Tourism management system with authentication, spot details, add/update features, and animations.  
-**Stack:** React, TailwindCSS, Express, MongoDB  
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/iamshihab2020/boycott-forum)
 
----
+</details>
 
-### 🔹 [Boycott Forum](https://github.com/iamshihab2020/boycott-forum)  
-Alternative product information forum where users can submit queries, recommend, and manage discussions.  
-**Stack:** React, Material Tailwind, Node.js, Express, MongoDB  
+<details>
+<summary><strong>🏡 Sanctuary — Real Estate Platform</strong></summary>
+
+<br/>
+
+Real estate website with profile management, property tour scheduling, and a fully responsive design.
+
+**Stack:** `React` `TailwindCSS` `Firebase`
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/iamshihab2020/sanctuary-real-estate)
+
+</details>
 
 ---
 
-### 🔹 [Sanctuary Real Estate](https://github.com/iamshihab2020/sanctuary-real-estate)  
-Real estate website with profile management, property tours, and responsive design.  
-**Stack:** React, TailwindCSS, Firebase  
+## `> cat tech_stack.json`
+
+**Frontend**
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=flat-square&logo=framer&logoColor=white)
+
+**Backend**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+**Data & Infrastructure**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=flat-square&logo=mysql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+
+**Tooling**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=react-query&logoColor=white)
 
 ---
 
----
+## `> git log --stats`
 
-## 🛠️ Languages & Tools  
-<p align="left">
-<a href="https://reactjs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" height="40"/></a>
-<a href="https://nextjs.org/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" width="40" height="40"/></a>
-<a href="https://tailwindcss.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="40" height="40"/></a>
-<a href="https://nodejs.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="40" height="40"/></a>
-<a href="https://expressjs.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" width="40" height="40"/></a>
-<a href="https://www.djangoproject.com/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/django.svg" width="40" height="40"/></a>
-<a href="https://www.python.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40"/></a>
-<a href="https://www.typescriptlang.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40" height="40"/></a>
-<a href="https://www.mongodb.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="40" height="40"/></a>
-<a href="https://www.mysql.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="40" height="40"/></a>
-<a href="https://www.sqlite.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" width="40" height="40"/></a>
-<a href="https://firebase.google.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" width="40" height="40"/></a>
-<a href="https://getbootstrap.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" width="40" height="40"/></a>
-<a href="https://www.w3.org/html/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="40" height="40"/></a>
-<a href="https://www.w3schools.com/css/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="40" height="40"/></a>
-</p>  
+<div align="center">
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=iamshihab2020&theme=github-dark-blue&hide_border=true&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=iamshihab2020&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=ffffff&include_all_commits=true&count_private=true&layout=compact)
+
+</div>
 
 ---
 
-## 📊 GitHub Stats  
-![](https://github-readme-streak-stats.herokuapp.com/?user=iamshihab2020&theme=dark&hide_border=false)  
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=iamshihab2020&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)  
+## `> top_contributions`
+
+<div align="center">
+
+![Top Contributed Repos](https://github-contributor-stats.vercel.app/api?username=iamshihab2020&limit=5&theme=github_dark&combine_all_yearly_contributions=true&hide_border=true)
+
+</div>
 
 ---
 
-## 🔝 Top Contributed Repositories  
-![](https://github-contributor-stats.vercel.app/api?username=iamshihab2020&limit=5&theme=onedark&combine_all_yearly_contributions=true)  
+<div align="center">
 
----
+<sub>
 
-<a href="https://gitroll.io/profile/utRX49Aq4JUcZF7ZE9TTjsp95f0S2" target="_blank">
-<img src="https://gitroll.io/api/badges/profiles/v1/utRX49Aq4JUcZF7ZE9TTjsp95f0S2?theme=tokyoNight" alt="GitRoll Profile Badge"/>
-</a>  
+Open to **freelance collaborations**, **SaaS & automation projects**, and **senior engineering roles**.  
+If you're building something ambitious — let's talk.
 
-[![](https://visitcount.itsvg.in/api?id=iamshihab2020&icon=5&color=2)](https://visitcount.itsvg.in)  
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sheikh-shihab-hossain/)
 
----
+</sub>
 
-🌊 *Innovating one line of code at a time.*  
-<img alt="wave animation" src="images/wave_animation_dark.svg#gh-dark-mode-only">
+<br/>
+
+![Visitor Count](https://visitcount.itsvg.in/api?id=iamshihab2020&icon=5&color=1)
+
+<br/>
+<sub><i>Shipping one commit at a time · Khulna → Global</i></sub>
+
+</div>
