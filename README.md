@@ -30,16 +30,16 @@
 
 ## 🛠️ Currently
 
-I'm a **Full-Stack Engineer at Sharetasking Inc. (USA, remote)**, building **SiloCRM** — a multi-tenant CRM platform — as part of a 5+ engineer team.
+I'm a **Full-Stack Engineer at Sharetasking Inc. (USA, remote)**, building **SiloCRM** (a multi-tenant CRM platform) as part of a 5+ engineer team.
 
 **What I'm shipping right now:**
 
-- **SiloPilot** — a multi-channel AI assistant per tenant (voice, SMS, email) for lead qualification, appointment booking, data collection, and call routing. I built the **ElevenLabs ConvAI voice integration** (real-time WebSocket + RAG knowledge bases), the **Twilio SMS layer with AI-generated replies**, the **webhook ingest for transcription / audio / conversation events**, and the **AI agents management UI**.
-- **Workflow Automation Engine** — owned end-to-end (solo). A visual no-code builder (React Flow + Zustand) with **40+ trigger types** and **20+ actions** spanning the CRM lifecycle, plus a **custom Fastify execution engine** with breadth-first graph traversal, per-node execution logs, and a replayable read-only viewer over past runs.
+- **SiloPilot**: a multi-channel AI assistant per tenant (voice, SMS, email) for lead qualification, appointment booking, data collection, and call routing. I built the **ElevenLabs ConvAI voice integration** (real-time WebSocket + RAG knowledge bases), the **Twilio SMS layer with AI-generated replies**, the **webhook ingest for transcription, audio, and conversation events**, and the **AI agents management UI**.
+- **Workflow Automation Engine**: owned end-to-end, solo. A visual no-code builder (React Flow + Zustand) with **33 trigger types** and **20+ actions** spanning the CRM lifecycle, plus a **custom Fastify execution engine** with breadth-first graph traversal, per-node execution logs, and a replayable read-only viewer over past runs.
 
 > Most of this work lives behind a private repo, so my public projects below show patterns and side experiments rather than my day job.
 
-**Day-to-day stack:** Next.js (App Router) · TypeScript · Fastify · Prisma · PostgreSQL with RLS · Redis · ElevenLabs ConvAI · Twilio · Claude Code · Cursor
+**Day-to-day stack:** Next.js (App Router), TypeScript, Fastify, Prisma, PostgreSQL with RLS, Redis, ElevenLabs ConvAI, Twilio, Claude Code, Cursor
 
 ---
 
@@ -47,11 +47,11 @@ I'm a **Full-Stack Engineer at Sharetasking Inc. (USA, remote)**, building **Sil
 
 | | |
 | --- | --- |
-| 🤖 **AI Agents** | Voice and SMS agents on ElevenLabs ConvAI + Twilio — RAG knowledge bases, agent provisioning, real-time conversation handling |
-| 🔌 **Workflow Automation** | Visual no-code builders, custom execution engines, trigger / condition / action graphs, replay viewers |
+| 🤖 **AI Agents** | Voice and SMS agents on ElevenLabs ConvAI + Twilio: RAG knowledge bases, agent provisioning, real-time conversation handling |
+| 🔌 **Workflow Automation** | Visual no-code builders, custom execution engines, trigger/condition/action graphs, replay viewers |
 | 🏢 **Multi-Tenant SaaS** | Row-level security, JWT auth, role-based access, tenant-scoped data, monorepos with pnpm workspaces |
-| ⚡ **Full-Stack Web Apps** | Next.js + Fastify / Django, TypeScript end-to-end, REST APIs designed before implementation |
-| 🎨 **Polished UI** | shadcn/ui, TailwindCSS, Framer Motion — accessible, responsive, component-driven |
+| ⚡ **Full-Stack Web Apps** | Next.js + Fastify/Django, TypeScript end-to-end, REST APIs designed before implementation |
+| 🎨 **Polished UI** | shadcn/ui, TailwindCSS, Framer Motion: accessible, responsive, component-driven |
 
 ---
 
@@ -67,7 +67,7 @@ I'm a **Full-Stack Engineer at Sharetasking Inc. (USA, remote)**, building **Sil
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=iamshihab2020&repo=tabdeck&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="TabDeck"/>
         </a>
         <br/><br/>
-        <p>A feature-packed new tab page for Chrome — bookmarks, widgets, and a clean focus-friendly layout. My most-starred public project.</p>
+        <p>A feature-packed new tab page for Chrome: bookmarks, widgets, and a clean focus-friendly layout. My most-starred public project.</p>
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
         <img src="https://img.shields.io/badge/Chrome_Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white"/>
       </div>
@@ -79,7 +79,7 @@ I'm a **Full-Stack Engineer at Sharetasking Inc. (USA, remote)**, building **Sil
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=iamshihab2020&repo=omnicore-web&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="Omnicore"/>
         </a>
         <br/><br/>
-        <p>Multi-tenant SaaS for restaurant management — POS, menu / category management, waiter assignment, super-admin and tenant role-based access. Modular Django backend with JWT auth and RESTful APIs.</p>
+        <p>Multi-tenant SaaS for restaurant management: POS, menu/category management, waiter assignment, super-admin and tenant role-based access. Modular Django backend with JWT auth and RESTful APIs.</p>
         <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white"/>
         <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
         <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white"/>
@@ -121,7 +121,7 @@ I'm a **Full-Stack Engineer at Sharetasking Inc. (USA, remote)**, building **Sil
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=iamshihab2020&repo=tourism-management-website&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="Tour Goo"/>
       </a>
       <br/><br/>
-      <p>Tourism management web app with auth, spot details, add / update flows, and animated UI.</p>
+      <p>Tourism management web app with auth, spot details, add/update flows, and animated UI.</p>
       <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
       <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/>
       <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white"/>
@@ -136,14 +136,14 @@ I'm a **Full-Stack Engineer at Sharetasking Inc. (USA, remote)**, building **Sil
 
 <div align="center">
 
-**— Languages —**
+**Languages**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**— Frontend —**
+**Frontend**
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
@@ -153,7 +153,7 @@ I'm a **Full-Stack Engineer at Sharetasking Inc. (USA, remote)**, building **Sil
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=white)
 ![React Flow](https://img.shields.io/badge/React_Flow-FF0072?style=for-the-badge&logoColor=white)
 
-**— Backend —**
+**Backend**
 
 ![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
@@ -161,21 +161,21 @@ I'm a **Full-Stack Engineer at Sharetasking Inc. (USA, remote)**, building **Sil
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 
-**— Data & Infrastructure —**
+**Data & Infrastructure**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-**— AI / Telephony —**
+**AI / Telephony**
 
 ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=for-the-badge&logoColor=white)
 ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logoColor=white)
 
-**— Tooling —**
+**Tooling**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
@@ -213,7 +213,7 @@ I'm a **Full-Stack Engineer at Sharetasking Inc. (USA, remote)**, building **Sil
 
 <div align="center">
 
-I'm always open to interesting problems — multi-tenant SaaS, AI agents, workflow tooling, or anything where good engineering meets a real-world job to be done.
+I'm always open to interesting problems: multi-tenant SaaS, AI agents, workflow tooling, or anything where good engineering meets a real-world job to be done.
 
 Outside of code, I'm into **history**, **storytelling**, and the occasional **YouTube** rabbit hole. Happy to swap notes on either side.
 
