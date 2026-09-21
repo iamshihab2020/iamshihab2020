@@ -1,148 +1,184 @@
 <div align="center">
 
-<img src="https://i.ibb.co.com/8D6xfjXn/shihab-cover.png" width="100%" alt="Sheikh Shihab Hossain"/>
+<img src="https://i.ibb.co/8D6xfjXn/shihab-cover.png" width="100%" alt="Sheikh Shihab Hossain — Full-Stack & LLM Engineer"/>
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=720&lines=Hi+%F0%9F%91%8B+I'm+Sheikh+Shihab+Hossain;Full-Stack+Engineer+%40+Sharetasking+Inc.;Building+production+AI+agents+%26+CRM+tooling;Daily+Claude+Code+%26+Cursor+user)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1400&color=2CA697&center=true&vCenter=true&width=760&lines=Full-Stack+Engineer+%40+Sharetasking+Inc.;I+build+LLM+systems+that+can+be+measured.;Voice+%2B+SMS+agents%2C+workflow+engines%2C+multi-tenant+SaaS)](https://shihab-portfolio.vercel.app/)
 
 <br/>
 
-<a href="https://www.linkedin.com/in/sheikh-shihab-hossain/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
+<a href="https://shihab-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 &nbsp;
-<a href="https://shihab-portfolio.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-</a>
+<a href="https://www.linkedin.com/in/sheikh-shihab-hossain/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 &nbsp;
-<a href="mailto:shihabhossainii20@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
+<a href="mailto:shihabhossainii20@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 &nbsp;
-<a href="https://gitroll.io/profile/utRX49Aq4JUcZF7ZE9TTjsp95f0S2">
-  <img src="https://img.shields.io/badge/GitRoll-Profile-blueviolet?style=for-the-badge&logo=git&logoColor=white" alt="GitRoll"/>
-</a>
+<a href="https://gitroll.io/profile/utRX49Aq4JUcZF7ZE9TTjsp95f0S2"><img src="https://img.shields.io/badge/GitRoll-8A2BE2?style=for-the-badge&logo=git&logoColor=white" alt="GitRoll"/></a>
 
 </div>
 
 ---
 
-## 🛠️ Currently
+I'm a full-stack engineer at **Sharetasking Inc.**, building **SiloCRM** with a team of five. Most of my recent work is LLM application engineering: a real-time voice agent on ElevenLabs ConvAI, AI-generated SMS on Twilio, RAG with per-tenant knowledge-base sync — and a visual workflow automation engine I designed and built end-to-end, solo.
 
-I'm a **Full-Stack Engineer at Sharetasking Inc. (USA, remote)**, building **SiloCRM** (a multi-tenant CRM platform) as part of a 5+ engineer team.
+I care about the part most LLM work skips: proving the thing actually works. That's why I wrote [EvalLab](https://github.com/iamshihab2020/evallab).
 
-**What I'm shipping right now:**
-
-- **SiloPilot**: a multi-channel AI assistant per tenant (voice, SMS, email) for lead qualification, appointment booking, data collection, and call routing. I built the **ElevenLabs ConvAI voice integration** (real-time WebSocket + RAG knowledge bases), the **Twilio SMS layer with AI-generated replies**, the **webhook ingest for transcription, audio, and conversation events**, and the **AI agents management UI**.
-- **Workflow Automation Engine**: owned end-to-end, solo. A visual no-code builder (React Flow + Zustand) with **33 trigger types** and **20+ actions** spanning the CRM lifecycle, plus a **custom Fastify execution engine** with breadth-first graph traversal, per-node execution logs, and a replayable read-only viewer over past runs.
-
-> Most of this work lives behind a private repo, so my public projects below show patterns and side experiments rather than my day job.
-
-**Day-to-day stack:** Next.js (App Router), TypeScript, Fastify, Prisma, PostgreSQL with RLS, Redis, ElevenLabs ConvAI, Twilio, Claude Code, Cursor
+**Khulna, Bangladesh (UTC+6)** · remote with US teams · open to senior full-stack roles
 
 ---
 
-## 🚀 What I Build
+## The workflow engine, running its own example
 
-| | |
-| --- | --- |
-| 🤖 **AI Agents** | Voice and SMS agents on ElevenLabs ConvAI + Twilio: RAG knowledge bases, agent provisioning, real-time conversation handling |
-| 🔌 **Workflow Automation** | Visual no-code builders, custom execution engines, trigger/condition/action graphs, replay viewers |
-| 🏢 **Multi-Tenant SaaS** | Row-level security, JWT auth, role-based access, tenant-scoped data, monorepos with pnpm workspaces |
-| ⚡ **Full-Stack Web Apps** | Next.js + Fastify/Django, TypeScript end-to-end, REST APIs designed before implementation |
-| 🎨 **Polished UI** | shadcn/ui, TailwindCSS, Framer Motion: accessible, responsive, component-driven |
+The engine walks a trigger graph **breadth-first, one depth at a time**, and writes a log line per node. Every run is replayable in a read-only viewer. This is the shape of a real workflow a user builds on the canvas:
 
+```mermaid
+flowchart LR
+    T([New lead]) --> A[Tag inbound]
+    A --> W[Wait 5 min]
+    W --> Q{Replied?}
+    Q -- no --> S[Send SMS]
+    Q -- yes --> C[Create task]
+    S --> L[(Per-node<br/>execution log)]
+    C --> L
+```
 
-## 🧰 Tech Stack
-
-<div align="center">
-
-**Languages**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-433E38?style=for-the-badge&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=white)
-![React Flow](https://img.shields.io/badge/React_Flow-FF0072?style=for-the-badge&logoColor=white)
-
-**Backend**
-
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-
-**Data & Infrastructure**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
-**AI / Telephony**
-
-![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=for-the-badge&logoColor=white)
-![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logoColor=white)
-
-**Tooling**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Linear](https://img.shields.io/badge/Linear-5E6AD2?style=for-the-badge&logo=linear&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-
-</div>
+React Flow canvas + Zustand on the front, a custom Fastify execution engine behind it. **33 trigger types**, **20+ actions** across the CRM lifecycle.
 
 ---
 
-## 📊 GitHub Stats
+<details>
+<summary><b>What I'm shipping right now</b></summary>
+
+<br/>
+
+**SiloPilot** — a per-tenant, multi-channel AI agent for lead qualification, appointment booking, data collection and call routing. Each agent is bound to a tenant-owned Twilio number. I built:
+
+- the **ElevenLabs ConvAI voice integration** — real-time WebSocket, document store / RAG, agent provisioning
+- the **Twilio SMS layer** with AI-generated replies
+- **webhook ingest** for transcription, audio and conversation events
+- **RAG pipelines** with per-tenant knowledge-base sync
+- **tool-use** for call transfer and data collection
+- the **AI agents management UI**
+
+**Workflow Automation Engine** — owned end-to-end, solo. Visual no-code builder, custom execution engine, breadth-first graph traversal, per-node logs, replayable run viewer.
+
+> Both are company products behind a private repo, not side projects. The public repos below are my own work.
+
+</details>
+
+<details>
+<summary><b>Selected work</b></summary>
+
+<br/>
+
+| Project | What it is | |
+| --- | --- | --- |
+| **EvalLab** | LLM evaluation harness — LLM-as-judge scoring across four dimensions, failure clustering, judge calibration with Cohen's κ and a 5×5 confusion matrix. Python/FastAPI + Next.js. | [repo](https://github.com/iamshihab2020/evallab) · [live](https://evallab-pearl.vercel.app/) |
+| **Zaxvio CRM** | Multi-tenant field-service SaaS for HVAC contractors. Scheduling, quoting, invoicing, customer history. Built solo, end-to-end. | [repo](https://github.com/iamshihab2020/zaxvio-crm) · [live](https://zaxvio-crm-web.vercel.app) |
+| **SiloCRM** | Multi-tenant AI-powered CRM. SiloPilot and the workflow engine live here. | [live](https://silocrm.com) |
+| **TabDeck** | A Chrome new-tab page. Open source. | [repo](https://github.com/iamshihab2020/tabdeck) |
+| **Counterfoil** | SaaS platform — frontend contribution at Ternary Solutions. | [live](https://counterfoil.app/) |
+
+</details>
+
+<details>
+<summary><b>The stack, by layer</b></summary>
+
+<br/>
+
+**LLM** — Prompt engineering · Agent design · RAG · Tool-use / function-calling · Streaming inference · LLM-as-judge evaluation · Prompt versioning
+
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=flat-square&logoColor=white)
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white)
+
+**Interface**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white)
+![React Flow](https://img.shields.io/badge/React_Flow-FF0072?style=flat-square&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-433E38?style=flat-square&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
+
+**Service**
+
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+
+**Data & infra**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon-00E599?style=flat-square&logo=neon&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white)
+
+Multi-tenant isolation is enforced at the database with **PostgreSQL row-level security**, not in application code.
+
+**Practice**
+
+![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Linear](https://img.shields.io/badge/Linear-5E6AD2?style=flat-square&logo=linear&logoColor=white)
+
+</details>
+
+<details>
+<summary><b>How I work</b></summary>
+
+<br/>
+
+- **REST APIs get designed before they get implemented.** The contract is the artifact; the handler is a detail.
+- **Tenant isolation belongs in the database.** Row-level security means a missed `WHERE` clause is a failed query, not a data leak.
+- **Evals before vibes.** If an LLM feature ships without a way to measure regression, it ships without a way to know it broke. That opinion is why EvalLab exists.
+- **Daily Claude Code and Cursor user** — directing agents, curating context, and reviewing what they produce across the monorepo.
+
+</details>
+
+---
+
+## Activity
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=iamshihab2020&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamshihab2020&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=ffffff&include_all_commits=true&count_private=true&layout=compact" width="49%"/>
+<img src="https://streak-stats.demolab.com/?user=iamshihab2020&theme=github-dark-blue&hide_border=true&background=0D1117&ring=2CA697&fire=2CA697&currStreakLabel=2CA697" width="60%" alt="GitHub streak"/>
 
 <br/><br/>
 
-![Top Contributed Repos](https://github-contributor-stats.vercel.app/api?username=iamshihab2020&limit=5&theme=onedark&combine_all_yearly_contributions=true&hide_border=true)
-
-<br/>
-
 <a href="https://gitroll.io/profile/utRX49Aq4JUcZF7ZE9TTjsp95f0S2" target="_blank">
-  <img src="https://gitroll.io/api/badges/profiles/v1/utRX49Aq4JUcZF7ZE9TTjsp95f0S2?theme=tokyoNight" alt="GitRoll Profile Badge"/>
+  <img src="https://gitroll.io/api/badges/profiles/v1/utRX49Aq4JUcZF7ZE9TTjsp95f0S2?theme=tokyoNight" alt="GitRoll profile"/>
 </a>
 
 </div>
 
 ---
 
-## 💬 Let's Connect
+## Let's talk
+
+I'm open to senior full-stack roles, particularly LLM application work. Multi-tenant SaaS, agent plumbing, workflow tooling — anything where the engineering has a real job to do.
+
+Outside of code it's history, storytelling, and the occasional YouTube rabbit hole. Happy to swap notes on either.
 
 <div align="center">
-
-I'm always open to interesting problems: multi-tenant SaaS, AI agents, workflow tooling, or anything where good engineering meets a real-world job to be done.
-
-Outside of code, I'm into **history**, **storytelling**, and the occasional **YouTube** rabbit hole. Happy to swap notes on either side.
-
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sheikh-shihab-hossain/)
+[![Email](https://img.shields.io/badge/Email_me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shihabhossainii20@gmail.com)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shihabhossainii20@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sheikh-shihab-hossain/)
 
 </div>
