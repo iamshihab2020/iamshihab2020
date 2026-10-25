@@ -157,9 +157,7 @@ Compared 12 fine-tuned CNNs; DenseNet121 reached 90.33% accuracy and 90.00% F1. 
 
 <br/><br/>
 
-<a href="https://gitroll.io/profile/utRX49Aq4JUcZF7ZE9TTjsp95f0S2" target="_blank">
-  <img src="https://gitroll.io/api/badges/profiles/v1/utRX49Aq4JUcZF7ZE9TTjsp95f0S2?theme=tokyoNight" alt="GitRoll profile"/>
-</a>
+<a href="https://gitroll.io/profile/utRX49Aq4JUcZF7ZE9TTjsp95f0S2" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/utRX49Aq4JUcZF7ZE9TTjsp95f0S2?theme=dark" alt="GitRoll Profile Badge"/></a>
 
 </div>
 
