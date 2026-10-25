@@ -59,7 +59,7 @@ flowchart LR
 | **Zaxvio CRM** | Multi-tenant field-service SaaS for small HVAC teams: scheduling, invoicing, customer history. Turborepo with Next.js, Fastify, Supabase and Drizzle. Built solo. | [repo](https://github.com/iamshihab2020/zaxvio-crm) · [live](https://zaxvio-crm-web.vercel.app) |
 | **Bangla sentiment fine-tuning** | How much labelled data a QLoRA-tuned 1–2B model needs to match BanglaBERT, on a 6 GB laptop GPU. Reproduced the published baseline and found 7.2% train/test leakage in SentNoB. | [repo](https://github.com/iamshihab2020/bangla-sentiment-finetuning) |
 | **TabbyDeck** | Turns a phone or tablet into a Stream Deck for Windows. Node host, Preact deck and editor, 399 tests. Open source. | [repo](https://github.com/iamshihab2020/TabbyDeck) · [site](https://iamshihab2020.github.io/TabbyDeck/) |
-| **DropMate** | Chat and send files to people at home over your own Wi-Fi. Windows and Android, no cloud, no account. Flutter. | [repo](https://github.com/iamshihab2020/DropMate) |
+| **DropMate** | Chat and send files to people at home over your own Wi-Fi. Windows and Android, no cloud, no account. Flutter. | [repo](https://github.com/iamshihab2020/DropMate) · [site](https://iamshihab2020.github.io/DropMate/) · [download](https://github.com/iamshihab2020/DropMate/releases/latest) |
 | **TabDeck** | A feature-packed new-tab page for Chrome. My most-starred repo. | [repo](https://github.com/iamshihab2020/tabdeck) |
 
 ---
