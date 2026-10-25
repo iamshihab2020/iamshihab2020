@@ -8,8 +8,6 @@
 
 <a href="https://shihab-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 &nbsp;
-<a href="https://www.linkedin.com/in/sheikh-shihab-hossain/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-&nbsp;
 <a href="mailto:sheikhshihabhossain2020@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 &nbsp;
 <a href="https://gitroll.io/profile/utRX49Aq4JUcZF7ZE9TTjsp95f0S2"><img src="https://img.shields.io/badge/GitRoll-8A2BE2?style=for-the-badge&logo=git&logoColor=white" alt="GitRoll"/></a>
@@ -178,6 +176,6 @@ Outside code, it's history, storytelling and the occasional YouTube rabbit hole.
 
 [![Email](https://img.shields.io/badge/Email_me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sheikhshihabhossain2020@gmail.com)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sheikh-shihab-hossain/)
+[![Portfolio](https://img.shields.io/badge/See_my_portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://shihab-portfolio.vercel.app/)
 
 </div>
