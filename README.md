@@ -1,18 +1,16 @@
 <div align="center">
 
-<img src="https://i.ibb.co/8D6xfjXn/shihab-cover.png" width="100%" alt="Sheikh Shihab Hossain — Full-Stack & LLM Engineer"/>
+<img src="assets/hero.svg" width="100%" alt="Sheikh Shihab Hossain, software developer: AI SaaS, LLM systems and automation"/>
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1400&color=2CA697&center=true&vCenter=true&width=760&lines=Full-Stack+Engineer+%40+Sharetasking+Inc.;I+build+LLM+systems+that+can+be+measured.;Voice+%2B+SMS+agents%2C+workflow+engines%2C+multi-tenant+SaaS)](https://shihab-portfolio.vercel.app/)
-
-<br/>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1400&color=2CA697&center=true&vCenter=true&width=900&lines=I+build+LLM+systems+that+can+be+measured.;Voice+and+SMS+agents%2C+workflow+engines%2C+multi-tenant+SaaS.;Open+source+on+the+side%3A+TabbyDeck%2C+DropMate%2C+TabDeck.)](https://shihab-portfolio.vercel.app/)
 
 <a href="https://shihab-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 &nbsp;
 <a href="https://www.linkedin.com/in/sheikh-shihab-hossain/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 &nbsp;
-<a href="mailto:shihabhossainii20@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="mailto:sheikhshihabhossain2020@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 &nbsp;
 <a href="https://gitroll.io/profile/utRX49Aq4JUcZF7ZE9TTjsp95f0S2"><img src="https://img.shields.io/badge/GitRoll-8A2BE2?style=for-the-badge&logo=git&logoColor=white" alt="GitRoll"/></a>
 
@@ -20,17 +18,25 @@
 
 ---
 
-I'm a full-stack engineer at **Sharetasking Inc.**, building **SiloCRM** with a team of five. Most of my recent work is LLM application engineering: a real-time voice agent on ElevenLabs ConvAI, AI-generated SMS on Twilio, RAG with per-tenant knowledge-base sync — and a visual workflow automation engine I designed and built end-to-end, solo.
+I'm a software developer building **SiloCRM** and **SiloCSM** for **JWeis Marketing**, and before that for Sharetasking Inc. Most of my recent work is LLM application engineering: a real-time voice agent on ElevenLabs ConvAI, AI-written SMS on Twilio, RAG with per-tenant knowledge-base sync, MCP tools that expose CRM data to agents, and a visual workflow automation engine.
 
-I care about the part most LLM work skips: proving the thing actually works. That's why I wrote [EvalLab](https://github.com/iamshihab2020/evallab).
+I care about the part most LLM work skips: proving the thing actually works. That's why I built [EvalLab](https://github.com/iamshihab2020/evallab).
 
-**Khulna, Bangladesh (UTC+6)** · remote with US teams · open to senior full-stack roles
+**Open to senior full-stack and LLM application roles**, remote with US teams.
 
 ---
 
-## The workflow engine, running its own example
+## What I'm shipping at work
 
-The engine walks a trigger graph **breadth-first, one depth at a time**, and writes a log line per node. Every run is replayable in a read-only viewer. This is the shape of a real workflow a user builds on the canvas:
+**SiloPilot**, a per-tenant AI agent for calls, SMS and email. It qualifies leads, books appointments, collects data and routes calls, each agent on a tenant-owned Twilio number. My part:
+
+- the **ElevenLabs ConvAI voice integration**: real-time WebSocket, document store and RAG, agent provisioning
+- the **Twilio layer**: calling, conference calls and AI-written SMS replies
+- **webhook ingest** for transcripts, audio and conversation events
+- **MCP integrations** and tool use for call transfer and data collection
+- the **AI agents management UI**
+
+**The workflow automation engine.** A no-code canvas (React Flow and Zustand) on a custom Fastify execution engine: **33 triggers, 20+ actions**, conditional branches. It walks the graph **breadth-first, one depth at a time**, and logs every node, so each run can be replayed. The header above is that idea, animated. A real workflow looks like this:
 
 ```mermaid
 flowchart LR
@@ -43,57 +49,51 @@ flowchart LR
     C --> L
 ```
 
-React Flow canvas + Zustand on the front, a custom Fastify execution engine behind it. **33 trigger types**, **20+ actions** across the CRM lifecycle.
+> Both live in a private company repo. Everything below is my own public work.
 
 ---
 
-<details>
-<summary><b>What I'm shipping right now</b></summary>
+## Selected work
 
-<br/>
-
-**SiloPilot** — a per-tenant, multi-channel AI agent for lead qualification, appointment booking, data collection and call routing. Each agent is bound to a tenant-owned Twilio number. I built:
-
-- the **ElevenLabs ConvAI voice integration** — real-time WebSocket, document store / RAG, agent provisioning
-- the **Twilio SMS layer** with AI-generated replies
-- **webhook ingest** for transcription, audio and conversation events
-- **RAG pipelines** with per-tenant knowledge-base sync
-- **tool-use** for call transfer and data collection
-- the **AI agents management UI**
-
-**Workflow Automation Engine** — owned end-to-end, solo. Visual no-code builder, custom execution engine, breadth-first graph traversal, per-node logs, replayable run viewer.
-
-> Both are company products behind a private repo, not side projects. The public repos below are my own work.
-
-</details>
-
-<details>
-<summary><b>Selected work</b></summary>
-
-<br/>
-
-| Project | What it is | |
+| Project | What it is | Links |
 | --- | --- | --- |
-| **EvalLab** | LLM evaluation harness — LLM-as-judge scoring across four dimensions, failure clustering, judge calibration with Cohen's κ and a 5×5 confusion matrix. Python/FastAPI + Next.js. | [repo](https://github.com/iamshihab2020/evallab) · [live](https://evallab-pearl.vercel.app/) |
-| **Zaxvio CRM** | Multi-tenant field-service SaaS for HVAC contractors. Scheduling, quoting, invoicing, customer history. Built solo, end-to-end. | [repo](https://github.com/iamshihab2020/zaxvio-crm) · [live](https://zaxvio-crm-web.vercel.app) |
-| **SiloCRM** | Multi-tenant AI-powered CRM. SiloPilot and the workflow engine live here. | [live](https://silocrm.com) |
-| **TabDeck** | A Chrome new-tab page. Open source. | [repo](https://github.com/iamshihab2020/tabdeck) |
-| **Counterfoil** | SaaS platform — frontend contribution at Ternary Solutions. | [live](https://counterfoil.app/) |
+| **EvalLab** | LLM evaluation platform. LLM-as-judge scoring on accuracy, completeness, tone and safety; run-to-run regression checks; failure clustering; judge calibration against humans with Cohen's κ. Next.js, FastAPI, PostgreSQL. | [repo](https://github.com/iamshihab2020/evallab) · [live](https://evallab-pearl.vercel.app/) |
+| **Zaxvio CRM** | Multi-tenant field-service SaaS for small HVAC teams: scheduling, invoicing, customer history. Turborepo with Next.js, Fastify, Supabase and Drizzle. Built solo. | [repo](https://github.com/iamshihab2020/zaxvio-crm) · [live](https://zaxvio-crm-web.vercel.app) |
+| **Bangla sentiment fine-tuning** | How much labelled data a QLoRA-tuned 1–2B model needs to match BanglaBERT, on a 6 GB laptop GPU. Reproduced the published baseline and found 7.2% train/test leakage in SentNoB. | [repo](https://github.com/iamshihab2020/bangla-sentiment-finetuning) |
+| **TabbyDeck** | Turns a phone or tablet into a Stream Deck for Windows. Node host, Preact deck and editor, 399 tests. Open source. | [repo](https://github.com/iamshihab2020/TabbyDeck) · [site](https://iamshihab2020.github.io/TabbyDeck/) |
+| **DropMate** | Chat and send files to people at home over your own Wi-Fi. Windows and Android, no cloud, no account. Flutter. | [repo](https://github.com/iamshihab2020/DropMate) |
+| **TabDeck** | A feature-packed new-tab page for Chrome. My most-starred repo. | [repo](https://github.com/iamshihab2020/tabdeck) |
 
-</details>
+---
+
+## Research
+
+**Autism Spectrum Disorder Identification from Facial Images Using Fine-Tuned Pre-trained Deep Learning Models and Explainable AI Techniques**<br/>
+Hossain, S. S., et al. (2025). *Semarak International Journal of Applied Psychology*, 5(1), 29–53. First author.<br/>
+Compared 12 fine-tuned CNNs; DenseNet121 reached 90.33% accuracy and 90.00% F1. LIME and Grad-CAM show which facial regions drive each prediction.
+
+---
+
+## Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,python,fastapi,django,postgres,redis,supabase,docker,vercel&perline=13" alt="TypeScript, React, Next.js, Tailwind, Node.js, Python, FastAPI, Django, PostgreSQL, Redis, Supabase, Docker, Vercel"/>
+</p>
 
 <details>
-<summary><b>The stack, by layer</b></summary>
+<summary><b>The full stack, by layer</b></summary>
 
 <br/>
 
-**LLM** — Prompt engineering · Agent design · RAG · Tool-use / function-calling · Streaming inference · LLM-as-judge evaluation · Prompt versioning
+**LLM**: prompt and context engineering · agents and tool calling · MCP · RAG · structured outputs · LLM-as-judge evaluation · QLoRA fine-tuning
 
 ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=flat-square&logoColor=white)
 ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 **Interface**
 
@@ -110,13 +110,14 @@ React Flow canvas + Zustand on the front, a custom Fastify execution engine behi
 
 ![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
 
-**Data & infra**
+**Data and infra**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
@@ -126,11 +127,9 @@ React Flow canvas + Zustand on the front, a custom Fastify execution engine behi
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white)
 
-Multi-tenant isolation is enforced at the database with **PostgreSQL row-level security**, not in application code.
-
 **Practice**
 
-![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-191919?style=flat-square&logo=anthropic&logoColor=white)
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
@@ -143,10 +142,10 @@ Multi-tenant isolation is enforced at the database with **PostgreSQL row-level s
 
 <br/>
 
-- **REST APIs get designed before they get implemented.** The contract is the artifact; the handler is a detail.
-- **Tenant isolation belongs in the database.** Row-level security means a missed `WHERE` clause is a failed query, not a data leak.
-- **Evals before vibes.** If an LLM feature ships without a way to measure regression, it ships without a way to know it broke. That opinion is why EvalLab exists.
-- **Daily Claude Code and Cursor user** — directing agents, curating context, and reviewing what they produce across the monorepo.
+- **Design the API before writing it.** The contract is what matters; the handler is a detail.
+- **Tenant isolation belongs in the database.** With PostgreSQL row-level security, a missing `WHERE` clause fails the query instead of leaking data.
+- **Measure before trusting.** An LLM feature without a regression check has no way to tell you it broke. That's why EvalLab exists.
+- **I use Claude Code and Cursor every day**: directing agents, curating context, and reviewing what they write.
 
 </details>
 
@@ -170,14 +169,14 @@ Multi-tenant isolation is enforced at the database with **PostgreSQL row-level s
 
 ## Let's talk
 
-I'm open to senior full-stack roles, particularly LLM application work. Multi-tenant SaaS, agent plumbing, workflow tooling — anything where the engineering has a real job to do.
+I'm looking for senior full-stack roles, especially LLM application work: multi-tenant SaaS, agent plumbing, workflow tooling, anywhere the engineering has a real job to do.
 
-Outside of code it's history, storytelling, and the occasional YouTube rabbit hole. Happy to swap notes on either.
+Outside code, it's history, storytelling and the occasional YouTube rabbit hole. Happy to swap notes on either.
 
 <div align="center">
 <br/>
 
-[![Email](https://img.shields.io/badge/Email_me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shihabhossainii20@gmail.com)
+[![Email](https://img.shields.io/badge/Email_me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sheikhshihabhossain2020@gmail.com)
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sheikh-shihab-hossain/)
 

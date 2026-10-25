@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Sheikh Shihab Hossain, software developer: AI SaaS, LLM systems and automation. A workflow runs one depth at a time and logs each node.">
+  <style>
+    :root { --bg:#0d1117; --panel:#161b22; --line:#30363d; --text:#e6edf3; --muted:#8b949e; --accent:#2ca697; --tint:rgba(44,166,151,.16); --ask:#f5a524; }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#ffffff; --panel:#f6f8fa; --line:#d1d9e0; --text:#1f2328; --muted:#59636e; --accent:#1a7f72; --tint:rgba(26,127,114,.12); --ask:#b86e00; }
+    }
+    .sans { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+    .bg { fill: var(--bg); stroke: var(--line); }
+    .name { fill: var(--text); font-size: 46px; font-weight: 700; letter-spacing: -.5px; }
+    .role { fill: var(--accent); font-size: 20px; font-weight: 600; }
+    .meta { fill: var(--muted); font-size: 16px; }
+    .log { fill: var(--muted); font-size: 14px; opacity: .25; white-space: pre; }
+    .node rect { fill: var(--panel); stroke: var(--line); stroke-width: 1.5; }
+    .node text { fill: var(--muted); font-size: 15px; font-weight: 600; text-anchor: middle; }
+    .ask rect { stroke-dasharray: 5 4; }
+    .edge { fill: none; stroke: var(--line); stroke-width: 2; stroke-dasharray: 6 6; animation: flow 1.2s linear infinite; }
+    .tag { fill: var(--muted); font-size: 13px; }
+    @keyframes flow { to { stroke-dashoffset: -12; } }
+    /* Each depth lights up in turn, then all reset together: breadth-first, one depth at a time. */
+    .d0 { animation: k0 8s infinite; } .d1 { animation: k1 8s infinite; } .d2 { animation: k2 8s infinite; }
+    .d3 { animation: k3 8s infinite; } .d4 { animation: k4 8s infinite; }
+    @keyframes k0 { 0%,4% { opacity:.25 } 8%,88% { opacity:1 } 96%,100% { opacity:.25 } }
+    @keyframes k1 { 0%,17% { opacity:.25 } 21%,88% { opacity:1 } 96%,100% { opacity:.25 } }
+    @keyframes k2 { 0%,30% { opacity:.25 } 34%,88% { opacity:1 } 96%,100% { opacity:.25 } }
+    @keyframes k3 { 0%,43% { opacity:.25 } 47%,88% { opacity:1 } 96%,100% { opacity:.25 } }
+    @keyframes k4 { 0%,56% { opacity:.25 } 60%,88% { opacity:1 } 96%,100% { opacity:.25 } }
+    .node { opacity: .25; }
+    .on rect { fill: var(--tint); stroke: var(--accent); }
+    .on text { fill: var(--text); }
+    .ask.on rect { stroke: var(--ask); }
+    @media (prefers-reduced-motion: reduce) {
+      .edge, .d0, .d1, .d2, .d3, .d4 { animation: none; }
+      .node, .log { opacity: 1; }
+    }
+  </style>
+
+  <rect class="bg" x="1" y="1" width="1198" height="358" rx="16"/>
+
+  <text class="sans name" x="56" y="104">Sheikh Shihab Hossain</text>
+  <text class="sans role" x="56" y="144">Software developer · AI SaaS, LLM systems &amp; automation</text>
+  <text class="sans meta" x="56" y="176">Khulna, Bangladesh · remote with US teams (UTC+6)</text>
+
+  <text xml:space="preserve" class="mono log d0" x="56" y="236">depth 0  New lead        ok</text>
+  <text xml:space="preserve" class="mono log d1" x="56" y="258">depth 1  Tag inbound     ok</text>
+  <text xml:space="preserve" class="mono log d2" x="56" y="280">depth 2  Wait 5 min      ok</text>
+  <text xml:space="preserve" class="mono log d3" x="56" y="302">depth 3  Replied?        no</text>
+  <text xml:space="preserve" class="mono log d4" x="56" y="324">depth 4  Send SMS        sent</text>
+
+  <g transform="translate(40 0)">
+  <path class="edge" d="M760 82 H790"/>
+  <path class="edge" d="M930 82 H960"/>
+  <path class="edge" d="M1030 104 V150"/>
+  <path class="edge" d="M1000 194 C1000 222 890 222 890 250"/>
+  <path class="edge" d="M1060 194 C1060 222 1070 222 1070 250"/>
+  <text class="sans tag" x="924" y="232">no</text>
+  <text class="sans tag" x="1072" y="232">yes</text>
+
+  <g class="node on d0"><rect x="620" y="60" width="140" height="44" rx="10"/><text class="sans" x="690" y="87">New lead</text></g>
+  <g class="node on d1"><rect x="790" y="60" width="140" height="44" rx="10"/><text class="sans" x="860" y="87">Tag inbound</text></g>
+  <g class="node on d2"><rect x="960" y="60" width="140" height="44" rx="10"/><text class="sans" x="1030" y="87">Wait 5 min</text></g>
+  <g class="node ask on d3"><rect x="960" y="150" width="140" height="44" rx="22"/><text class="sans" x="1030" y="177">Replied?</text></g>
+  <g class="node on d4"><rect x="820" y="250" width="140" height="44" rx="10"/><text class="sans" x="890" y="277">Send SMS</text></g>
+  <g class="node"><rect x="1000" y="250" width="140" height="44" rx="10"/><text class="sans" x="1070" y="277">Create task</text></g>
+  </g>
+</svg>
